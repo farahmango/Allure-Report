@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 12 10:24:23 AST 2025","Mon May 12 10:24:26 AST 2025","2122","Demo Blaze","Demo Blaze Sign Up","test.TestBase","test.TestBase","signInToDemoBlaze","signInToDemoBlaze","This is a test => description"
+"passed","Mon May 12 10:24:23 AST 2025","Mon May 12 10:24:23 AST 2025","64","Demo Blaze","Demo Blaze Sign Up","test.TestBase","test.TestBase","checkTheTitle","checkTheTitle","Assert the title"
