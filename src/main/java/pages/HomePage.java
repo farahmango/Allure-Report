@@ -12,7 +12,7 @@ public class HomePage {
     private By submitBtn = By.xpath("(//button['@type=button'])[6]");
 
     SoftAssert myAssert = new SoftAssert();
-    Credentials credentials = new Credentials();
+    Credentials credentials = new Credentials("test123","123");
     @Step("sign up to profile => step")
     public void signUpToProfile(){
         ActionHelper.clickAction(signUpBtn);

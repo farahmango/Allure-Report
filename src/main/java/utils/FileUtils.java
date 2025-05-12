@@ -13,15 +13,11 @@ public class FileUtils {
             InputStream input = new FileInputStream(filePath);
             pro.load(input);
 
-        } catch (Exception e){
-            throw new RuntimeException(e);
+        } catch (FileNotFoundException e){
+            System.out.println("test reason");
+        }catch (IOException e){
+            System.out.println("test reason");
         }
-//        } catch (FileNotFoundException e) {
-//            throw new RuntimeException(e);
-//        }
-//        catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
         String data = pro.getProperty(key);
         return data;
     }

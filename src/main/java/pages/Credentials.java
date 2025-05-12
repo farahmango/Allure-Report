@@ -7,9 +7,9 @@ public class Credentials {
     private String userName;
     private String password;
 
-    public Credentials() {
-        this.userName = FileUtils.readPropertiesFile(System.getProperty("user.dir") +"\\src\\main\\resources\\config.properties","userName");
-        this.password = FileUtils.readPropertiesFile(System.getProperty("user.dir") +"\\src\\main\\resources\\config.properties","password");
+    public Credentials(String userName, String password) {
+        this.userName = userName;
+        this.password = password;
     }
 
     public String getUserName() {
